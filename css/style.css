@@ -58,6 +58,7 @@ table{
   /* padding: 10px; */
   text-transform: uppercase;
   text-align: center;
+  vertical-align: middle;
 }
 
 .rowhead{
@@ -90,7 +91,7 @@ thead tr:first-child th:last-child {
 tbody tr:last-child th:first-child {
   border-bottom-left-radius: 10px;
 }
-tbody tr:last-child th:last-child {
+tbody tr:last-child td:last-child { /* not th */
   border-bottom-right-radius: 10px;
 }
 
