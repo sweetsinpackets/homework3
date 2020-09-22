@@ -17,6 +17,7 @@ body{
   background-position: center;
   background-color: #DDDDDD;
   background-image: url("../images/pigeon-background.JPEG");
+  background-repeat: no-repeat;
 }
 
 main{
@@ -51,7 +52,7 @@ table{
 }
 
 .colhead{
-  background-color: #7e0830;
+  background-color: #7e0820;
   color: #FFFFFF;
   min-width: 125px;
   /* padding: 10px; */
@@ -70,7 +71,7 @@ td{
   border-top: 2px solid black;
 }
 
-tr *{
+tr > *{
   text-align: center;
   padding: 10px;
 }
@@ -108,11 +109,11 @@ footer{
   border: 3px dashed #417243;
 }
 
-tr:nth-child(2n+1) {
+tr:nth-child(2n) {
   background-color: #D1D1D1;
 }
 
-tr:nth-child(2n) {
+tr:nth-child(2n+1) {
   background-color: transparent;
 }
 
