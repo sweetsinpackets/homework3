@@ -57,7 +57,7 @@ table{
   min-width: 125px;
   /* padding: 10px; */
   text-transform: uppercase;
-  /* text-align: center; */
+  text-align: center;
 }
 
 .rowhead{
@@ -71,7 +71,7 @@ td{
   border-top: 2px solid black;
 }
 
-tr > *{
+tr > * {
   text-align: center;
   padding: 10px;
 }
